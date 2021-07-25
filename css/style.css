@@ -622,6 +622,26 @@ Header .navbar .nav .nav-link-bar {
     width: 100%;
     padding-bottom: 1rem;
   }
+  .banner .banner-img {
+    position: relative;
+  }
+  .banner .banner-img .overlay-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2rem;
+  }
   #qoute-section {
     background-color: #f4feff !important;
     color: #1d1f2a !important;
@@ -734,3 +754,4 @@ Header .navbar .nav .nav-link-bar {
 }
 
 /********* Media Query Ends *********/
+/*# sourceMappingURL=style.css.map */
